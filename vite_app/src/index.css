@@ -1,0 +1,50 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.main-container {
+  display: flex; 
+  height: 150vh;
+  background-color: #121212;
+  color: white;
+}
+
+.leftpanel {
+  width: 250px;
+  background-color: #1e1e1e; 
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-y: auto; 
+}
+
+
+.content-container {
+  display: flex;
+  flex-direction: column; 
+  flex-grow: 1; 
+}
+
+
+.navbar {
+  height: 60px; 
+  background-color: #333; 
+  display: flex;
+  align-items: center; 
+  padding: 0 15px;
+  box-sizing: border-box;
+  z-index: 1000; 
+}
+
+
+.videosection {
+  flex-grow: 1; 
+  background-color: #181818;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+body{
+  color: black;
+
+}
